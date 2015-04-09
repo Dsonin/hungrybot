@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF=8">
+	<title>Hungry Bot</title>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/gamestyle.css" />
+</head>
+
+<body>
+
+    <div class="container-fluid">
+    <div class="row">
+	    <div class="col-md-3">
+	        <h1><span id="bot-name">Your Robot</span> is <span id="bot-status">hungry!</span></h1>
+	        <button class="btn" id="feed">Feed him!</button>
+		    <div id="robot">
+		    </div>
+		</div>
+	    <div class="col-md-9">
+            <div class="otherstuff">
+            	<input type="text" id="newBot" />
+                <button class="btn" id="newName">Name your bot!</button>
+            </div>
+            <div id="dialog">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row mining">
+    	<div class="col-md-4" class="mining">
+    		<button class="btn" id="mine">Mine Ore for Food</button>
+    		<button class="btn" id="coding">Research code</button>
+    	</div>
+    	<div class="col-md-4">
+            <div id="firstLevel" style="display:none">
+    	    <button class="btn" id="auto-eat">Teach your robot to eat with 10 scripts!</button>
+    	    <button class="btn" id="auto-mine">Teach your robot to mine with 25 scripts!</button>
+            </div>
+    	</div>
+    	<div class="col-md-4">
+            <p>Hunger rate: <span id="hungerRate"></span> per second </p>
+            <p>Ore Production: <span id="oreRate"></span> per second </p>
+            <p>Level Up In <span id="birthday"></span></p>
+            <p>Stamina <span id="stamina"></span></p>
+    		<p>Ore <span id="ore"></span></p>
+    		<p>Hunger <span id="hunger"></span>
+    		<p>Ram <span id="age"></span></p>
+    		<p>Bits <span id="data"></span></p>
+    		<p>Scripts <span id="scripts"></span>
+    	</div>
+    </div>
+
+</body>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
+
+</html>
